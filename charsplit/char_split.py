@@ -4,7 +4,8 @@ Split German compound words
 
 __author__ = 'don.tuggener@gmail.com'
 
-import ngram_probs  # trained with char_split_train.py
+#import ngram_probs  # trained with char_split_train.py
+from . import ngram_probs
 import re
 import sys
 
